@@ -1,0 +1,29 @@
+        #ds
+        {
+            height: 300px;
+            width: 300px;
+            border:2px solid blue;
+            background-color: black;
+            text-align: center;
+            padding: 20px; 
+            margin: auto;
+        }
+        input
+        {
+            height: 40px;
+            width: 20%;
+            font-size: 20px;
+            margin-top: 6px;
+            
+        }
+        #eee
+        {
+            height: 40px;
+            width: 81%;
+            border-color: aqua;
+        }
+        h1
+        {
+            color: brown;
+            margin-top: auto;
+        }

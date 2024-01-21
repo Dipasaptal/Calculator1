@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #ds
+        {
+            height: 300px;
+            width: 300px;
+            margin: center;
+        }
+        input
+        {
+            height: 40px;
+            width: 20%;
+            font-size: 20px;
+            margin-top: 6px;
+            
+        }
+        #eee
+        {
+            height: 50px;
+            width: 81%;
+            border-color: aqua;
+        }
+        #aa
+
+    </style>
+</head>
+<body bgcolor="blue">
+    <div id="ds" id="aa">
+    <h1>CALCULATOR</h1>
+    <form name="clr1"> 
+        <label></label>
+        <input type="text" name="dipa" placeholder="0" id="eee"> <br> <!--textbox-->
+        <input type="button" value="1" onclick="clr1.dipa.value+=1"><!--button and value 1 & + bcoz cancatination-->
+        <input type="button" value="2" onclick="clr1.dipa.value+=2">
+        <input type="button" value="3" onclick="clr1.dipa.value+=3">
+        <input type="button" value="+" onclick="clr1.dipa.value+='+'"> <br>
+
+        <input type="button" value="4" onclick="clr1.dipa.value+=4"> 
+        <input type="button" value="5" onclick="clr1.dipa.value+=5">
+        <input type="button" value="6" onclick="clr1.dipa.value+=6">
+        <input type="button" value="-" onclick="clr1.dipa.value+='-'"> <br>
+
+        <input type="button" value="7" onclick="clr1.dipa.value+=7">
+        <input type="button" value="8" onclick="clr1.dipa.value+=8">
+        <input type="button" value="9" onclick="clr1.dipa.value+=9">
+        <input type="button" value="/" onclick="clr1.dipa.value+='/'"> <br>
+
+        <input type="button" value="c" onclick="clr1.dipa.value=''">
+        <input type="button" value="0" onclick="clr1.dipa.value+=0">
+        <input type="button" value="=" onclick="clr1.dipa.value=eval(clr1.dipa.value)">
+        <input type="button" value="x" onclick="clr1.dipa.value+='*'"> <br>
+    </form>
+    </div>
+</body>
+</html>
+   
